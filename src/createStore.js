@@ -1,5 +1,8 @@
 export default function createStore(reducer) {
   // add your code here
+  function getState(){
+    return state
+  }
 }
 
 function render() {
