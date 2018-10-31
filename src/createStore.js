@@ -12,6 +12,9 @@ export default function createStore(reducer) {
   return {getState, dispatch}
 }
 
+let candyStore = createStore(candyReducer);
+let countStore = createStore(countReducer);
+
 
 
 function render() {
