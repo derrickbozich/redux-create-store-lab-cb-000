@@ -3,6 +3,10 @@ export default function createStore(reducer) {
   function getState(){
     return state
   }
+
+  function dispatch(action){
+    return null
+  }
 }
 
 function render() {
