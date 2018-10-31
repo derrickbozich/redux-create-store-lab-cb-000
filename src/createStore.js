@@ -1,6 +1,6 @@
 
-// export default function createStore(reducer) {
-function createStore(reducer) {
+export default function createStore(reducer) {
+// function createStore(reducer) {
   let state;
   // add your code here
 
