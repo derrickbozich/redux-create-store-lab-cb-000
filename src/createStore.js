@@ -16,7 +16,9 @@ export default function createStore(reducer) {
 }
 
 let candyStore = createStore(candyReducer);
+candyStore.dispatch({type: '@@INIT'})
 let countStore = createStore(countReducer);
+countStore.dispatch({type: '@@INIT'})
 
 
 
