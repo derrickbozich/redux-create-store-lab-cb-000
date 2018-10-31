@@ -1,5 +1,6 @@
 
-export default function createStore(reducer) {
+// export default function createStore(reducer) {
+function createStore(reducer) {
   // add your code here
 
   function getState(){
