@@ -1,4 +1,4 @@
-import candyReducer from '.reducers/candyReducer';
+import candyReducer from './reducers/candyReducer';
 import countReducer from './reducers/countReducer';
 
 export default function createStore(reducer) {
